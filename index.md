@@ -4,11 +4,54 @@ title: Overview
 ---
 
 S2E is a platform for writing tools that analyze the properties and
-behavior of software systems. So far, we have used S2E to develop a
+behavior of software systems. S2E is a virtual machine augmented
+with symbolic execution and modular path analyzers. S2E runs
+unmodified x86, x86-64, or ARM software stacks, including programs,
+libraries, the kernel, and drivers. Symbolic execution then
+automatically explores hundreds of thousands of paths through the
+system, while analyzers check that the desired properties hold on
+these paths.
+
+We have used S2E to develop a
 comprehensive performance profiler, a reverse engineering tool for
 proprietary software, and a bug finding tool for both kernel-mode
-and user-mode binaries. Building these tools on top of S2E took less
-than 770 LOC and 40 person-hours each.
+and user-mode binaries. Others have used S2E to build scalable
+file system checkers, symbolic execution engines for interpreted languages,
+tools for finding trojan messages in distributed systems, verifying
+software routers, testing embedded systems, and more.
+
+<hr/>
+
+<table style="border-collapse:separate; border-spacing: 0.7em 0.7em;border:0px;;">
+    <tr>
+      <td style="border:0px;;"><img src="/images/dl.png" style="height:48px;" alt="" /> </td>
+      <td style="border:0px;">
+        <span style="font-size:large;font-weight:bold;">
+          <a href="https://s2e.epfl.ch/attachments/download/63/s2e-demo-vmware.tar.bz2" class="external">
+          S2E in a Box
+          </a>
+        </span><br />
+        Hands-on experience of multi-path software analysis in a preconfigured environment.<br />
+        <span style="font-size:x-small;">
+          Requires <a href="http://www.vmware.com/products/player/" class="external">VMware Player</a>
+        </span>
+      </td>
+      <td style="vertical-align:middle;border:0px;padding-bottom: 1em;;">
+        <img src="/images/vm.png" style="height:48px;" alt="" />
+      </td>
+      <td style="border:0px;;">
+        <span style="font-size:large;font-weight:bold;">
+          <a href="https://github.com/dslab-epfl/s2e/archive/stable-1.3.zip" class="external">
+            Source Code
+          </a>
+        </span><br />
+        Including build instructions, documentation, tutorials, and more.
+      </td>
+    </tr>
+</table>
+
+
+<hr/>
 
 S2E’s novelty consists of its ability to scale to large real
 systems, such as a full Windows stack. S2E is based on two new ideas:
@@ -33,33 +76,3 @@ custom analysis tool, or write new analyzers using the S2E API.
 S2E helps make analyses based on symbolic execution practical for
 large software that runs in real environments, without requiring
 explicit modeling of these environments.
-
-<table style="border-collapse:separate; border-spacing: 0.7em 0.7em;border:0px;;">
-    <tr>
-      <td style="border:0px;;"><img src="/images/dl.png" style="height:48px;" alt="" /> </td>
-      <td style="border:0px;">
-        <span style="font-size:large;font-weight:bold;">
-          <a href="https://s2e.epfl.ch/attachments/download/63/s2e-demo-vmware.tar.bz2" class="external">
-          S2E in a Box
-          </a>
-        </span><br />
-        Hands-on experience of multi-path software analysis in a preconfigured environment.<br />
-        <span style="font-size:x-small;">
-          Requires <a href="http://www.vmware.com/products/player/" class="external">VMware Player</a>
-        </span>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align:middle;border:0px;padding-bottom: 1em;;">
-        <img src="/images/vm.png" style="height:48px;" alt="" />
-      </td>
-      <td style="border:0px;;">
-        <span style="font-size:large;font-weight:bold;">
-          <a href="https://github.com/dslab-epfl/s2e/archive/stable-1.3.zip" class="external">
-            Source Code
-          </a>
-        </span><br />
-        Including build instructions, documentation, tutorials, and more.
-      </td>
-    </tr>
-</table>
