@@ -24,7 +24,7 @@ software routers, testing embedded systems, and more.
 
 <table style="border-collapse:separate; border-spacing: 0.7em 0.7em;border:0px;;">
     <tr>
-      <td style="border:0px;;"><img src="/images/dl.png" style="height:48px;" alt="" /> </td>
+      <td style="border:0px;;"><img src="/images/vm.png" style="height:48px;" alt="" /> </td>
       <td style="border:0px;">
         <span style="font-size:large;font-weight:bold;">
           <a href="https://s2e.epfl.ch/attachments/download/63/s2e-demo-vmware.tar.bz2" class="external">
@@ -37,7 +37,7 @@ software routers, testing embedded systems, and more.
         </span>
       </td>
       <td style="vertical-align:middle;border:0px;padding-bottom: 1em;;">
-        <img src="/images/vm.png" style="height:48px;" alt="" />
+        <img src="/images/dl.png" style="height:48px;" alt="" />
       </td>
       <td style="border:0px;;">
         <span style="font-size:large;font-weight:bold;">
