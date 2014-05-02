@@ -1,0 +1,6 @@
+name: S2E
+markdown: kramdown
+relative_permalinks: false
+pygments: true
+highlighter: pygments
+exclude: ["vendor"]
