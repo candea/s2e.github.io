@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Mailing List
+title: Mailing Lists
 ---
 
-## Mailing lists
+## Mailing Lists
 
 <table style="border:0px;">
-		<tr>
-			<td style="border:0px;">        <table border="0" style="background-color: #fff; padding: 5px;" cellspacing="0">
+                <tr>
+                        <td style="border:0px;">        <table border="0" style="background-color: #fff; padding: 5px;" cellspacing="0">
         <tr><td style="border:0px;">
         <!--img src="https://groups.google.com/intl/en/images/logos/groups_logo_sm.gif"
                height="30" width="140" alt="Google Groups"-->
-	<img src="https://groups.google.com/groups/img/3nb/groups_bar.gif"
+        <img src="https://groups.google.com/groups/img/3nb/groups_bar.gif"
                height="26" width="132" alt="Google Groups">
         </td></tr>
         <tr><td style="padding-left: 5px; border:0px;">
@@ -31,7 +31,7 @@ title: Mailing List
         <tr><td style="border:0px;">
         <!--img src="https://groups.google.com/intl/en/images/logos/groups_logo_sm.gif"
                height="30" width="140" alt="Google Groups"-->
-	<img src="https://groups.google.com/groups/img/3nb/groups_bar.gif"
+        <img src="https://groups.google.com/groups/img/3nb/groups_bar.gif"
                height="26" width="132" alt="Google Groups">
         </td></tr>
         <tr><td style="padding-left: 5px; border:0px;">

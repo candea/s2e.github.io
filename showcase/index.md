@@ -4,7 +4,7 @@ title: Showcase
 ---
 
 
-## S²E Showcase
+## Showcase
 
 S²E is currently being used for several scientific projects across the
 world. Among them:
