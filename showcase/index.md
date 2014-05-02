@@ -7,7 +7,8 @@ title: Showcase
 ## Showcase
 
 S²E is currently being used for several scientific projects across the
-world. Among them:
+world. This pages lists some of them. <br/>We'll be happy to list yours as well,
+just drop us a line!
 
 -   **<a href="http://research.cs.wisc.edu/sonar/projects/symdrive/" target="_blank">Testing Linux Device
     Drivers</a>** at
