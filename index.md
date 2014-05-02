@@ -24,27 +24,32 @@ software routers, testing embedded systems, and more.
 
 <table style="border-collapse:separate; border-spacing: 0.7em 0.7em;border:0px;;">
     <tr>
-      <td style="border:0px;;"><img src="/images/vm.png" style="height:48px;" alt="" /> </td>
-      <td style="border:0px;">
+      <td rowspan="2"><img src="/images/vm.png" height="48"/></td>
+      <td>
         <span style="font-size:large;font-weight:bold;">
           <a href="https://s2e.epfl.ch/attachments/download/63/s2e-demo-vmware.tar.bz2" class="external">
           S2E in a Box
           </a>
-        </span><br />
+        </span>
+      </td>
+      <td rowspan="2"><img src="/images/dl.png" height="48"/></td>
+      <td>
+        <span style="font-size:large;font-weight:bold;">
+          <a href="https://github.com/dslab-epfl/s2e/archive/stable-1.3.zip" class="external">
+            Source Code
+          </a>
+        </span>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="vertical-align: top;">
         Hands-on experience of multi-path software analysis in a preconfigured environment.<br />
         <span style="font-size:x-small;">
           Requires <a href="http://www.vmware.com/products/player/" class="external">VMware Player</a>
         </span>
       </td>
-      <td style="vertical-align:middle;border:0px;padding-bottom: 1em;;">
-        <img src="/images/dl.png" style="height:48px;" alt="" />
-      </td>
-      <td style="border:0px;;">
-        <span style="font-size:large;font-weight:bold;">
-          <a href="https://github.com/dslab-epfl/s2e/archive/stable-1.3.zip" class="external">
-            Source Code
-          </a>
-        </span><br />
+      <td style="vertical-align: top;">
         Including build instructions, documentation, tutorials, and more.
       </td>
     </tr>
