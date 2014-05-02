@@ -9,6 +9,38 @@ title: Showcase
 S²E is currently being used for several scientific projects across the
 world. Among them:
 
+-   **<a href="http://research.cs.wisc.edu/sonar/projects/symdrive/" target="_blank">Testing Linux Device
+    Drivers</a>** at
+    University of Wisconsin-Madison (Matthew J. Renzelmann, Asim Kadav,
+    and Michael M. Swift). SymDrive is a system for testing Linux and
+    FreeBSD drivers without their devices. The system uses symbolic
+    execution to remove the need for hardware, and provides three new
+    features beyond prior symbolic-testing tools. First, SymDrive
+    greatly reduces the effort of testing a new driver with a
+    static-analysis and source-to-source transformation tool. Second,
+    SymDrive allows checkers to be written as ordinary C and execute in
+    the kernel, where they have full access to kernel and driver state.
+    Finally, SymDrive provides an execution-tracing tool to identify how
+    a patch changes I/O to the device and to compare device driver
+    implementations. In applying SymDrive to 21 Linux drivers and 5
+    FreeBSD drivers, we found 39 bugs.
+
+-   **File Systems Equivalence Checking** at Max Planck Institute for
+    Software Systems (<a href="http://www.mpi-sws.org/index_noflash.php?n=people/Joao_Carreira" target="_blank">Carreira
+    João</a>,
+    <a href="http://www.mpi-sws.org/~rodrigo/" target="_blank">Rodrigo Rodrigues</a>, <a href="http://www.cs.ucla.edu/~rupak/" target="_blank">Rupak
+    Majumdar</a>). The goal of this project
+    is to find functional bugs in systems code by checking the
+    equivalence of multiple implementations that obey the same
+    specification. Checking the equivalence of the different systems is
+    performed by comparing the outputs and the logical state of
+    different systems after executing the operations in their
+    specification. Symbolic execution will allows us to reason about all
+    possible executions and results of these operations. We specifically
+    intend to apply this approach to find functional bugs in file
+    systems.
+
+
 -   **Corruption Impact Analysis** at University of Wisconsin
     (<a href="http://pages.cs.wisc.edu/~srirams/new_hp_2011/homepage.html" target="_blank">Subramanian
     Sriram</a>,
@@ -56,21 +88,6 @@ world. Among them:
     cooperate in effectively accomplishing challenging tasks in software
     testing.
 
--   **File Systems Equivalence Checking** at Max Planck Institute for
-    Software Systems (<a href="http://www.mpi-sws.org/index_noflash.php?n=people/Joao_Carreira" target="_blank">Carreira
-    João</a>,
-    <a href="http://www.mpi-sws.org/~rodrigo/" target="_blank">Rodrigo Rodrigues</a>, <a href="http://www.cs.ucla.edu/~rupak/" target="_blank">Rupak
-    Majumdar</a>). The goal of this project
-    is to find functional bugs in systems code by checking the
-    equivalence of multiple implementations that obey the same
-    specification. Checking the equivalence of the different systems is
-    performed by comparing the outputs and the logical state of
-    different systems after executing the operations in their
-    specification. Symbolic execution will allows us to reason about all
-    possible executions and results of these operations. We specifically
-    intend to apply this approach to find functional bugs in file
-    systems.
-
 -   **Exploiting Parallelism for Effective Low-Level Software Analysis**
     at Institute of Software Chinese Academy of Sciences (<a href="http://124.16.139.203/self_pages/liujian/index.htm" target="_blank">Jian
     Liu</a>, Bin Li,
@@ -83,19 +100,3 @@ world. Among them:
     using multi-threading and multi-core processors. We are also
     devising heuristics to reduce the search time and to enhance
     efficiency.
-
--   **<a href="http://research.cs.wisc.edu/sonar/projects/symdrive/" target="_blank">Testing Linux Device
-    Drivers</a>** at
-    University of Wisconsin-Madison (Matthew J. Renzelmann, Asim Kadav,
-    and Michael M. Swift). SymDrive is a system for testing Linux and
-    FreeBSD drivers without their devices. The system uses symbolic
-    execution to remove the need for hardware, and provides three new
-    features beyond prior symbolic-testing tools. First, SymDrive
-    greatly reduces the effort of testing a new driver with a
-    static-analysis and source-to-source transformation tool. Second,
-    SymDrive allows checkers to be written as ordinary C and execute in
-    the kernel, where they have full access to kernel and driver state.
-    Finally, SymDrive provides an execution-tracing tool to identify how
-    a patch changes I/O to the device and to compare device driver
-    implementations. In applying SymDrive to 21 Linux drivers and 5
-    FreeBSD drivers, we found 39 bugs.
