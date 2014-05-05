@@ -9,6 +9,10 @@ title: Publications
 Vitaly Chipounov, Volodymyr Kuznetsov, and George Candea.
 *ACM Transactions on Computer Systems (<a href="http://tocs.acm.org" target="_blank">TOCS</a>)* Special issue: Best papers of ASPLOS, February 2012.
 
+<a href="http://dslab.epfl.ch/pubs/revgen.pdf" target="_blank">Enabling Sophisticated Analysis of x86 Binaries with RevGen.</a>
+Vitaly Chipounov and George Candea.
+*7th Workshop on Hot Topics in System Dependability (<a href="http://hotdep2011.cis.upenn.edu/" target="_blank">HotDep</a>)*, Hong Kong, China, June 2011
+
 <a href="http://dslab.epfl.ch/pubs/s2e.pdf" target="_blank">S2E: A Platform for In Vivo Multi-Path Analysis of Software Systems</a>.
 Vitaly Chipounov, Volodymyr Kuznetsov, George Candea.
 *16th Intl. Conference on Architectural Support for Programming Languages and Operating Systems* (<a href="http://asplos11.cs.ucr.edu/" target="_blank">ASPLOS</a>), Newport Beach, CA, March 2011.
