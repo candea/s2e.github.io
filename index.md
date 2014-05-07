@@ -27,7 +27,7 @@ software routers, testing embedded systems, and more.
       <td rowspan="2"><img src="/images/vm.png" height="64"/></td>
       <td width="30%">
         <span style="font-size:large;font-weight:bold;">
-          <a href="https://s2e.epfl.ch/attachments/download/63/s2e-demo-vmware.tar.bz2" class="external">
+          <a href="https://s3.amazonaws.com/s2e-demo-vm/s2e-demo-vmware.tar.bz2" class="external">
           S2E in a Box
           </a>
         </span>
