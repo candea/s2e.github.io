@@ -26,6 +26,13 @@ just drop us a line!
     implementations. In applying SymDrive to 21 Linux drivers and 5
     FreeBSD drivers, we found 39 bugs.
 
+-   **<a href="http://dslab.epfl.ch/proj/chef">Chef</a>** at EPFL (Stefan Bucur and George Candea).
+    Chef is a platform for obtaining symbolic execution engines for interpreted languages.
+    It works by reusing the interpreter itself as an executable language specification, thus
+    reducing the effort of obtaining an engine to a matter of days. The resulting engines can
+    be used like any other engine for finding bugs, generating high-coverage test suites,
+    assisting in debugging, and more.
+
 
 -   **<a href="http://dslab.epfl.ch/pubs/Achilles.pdf">
     Finding Trojan Message Vulnerabilities in Distributed Systems</a>**
