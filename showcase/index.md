@@ -92,8 +92,8 @@ just drop us a line!
 -   **<a href="http://www.comsys.rwth-aachen.de/research/projects/kleenet/" target="_blank">KleeNet
     project</a>**
     at Chair of Communication and Distributed Systems (ComSys), RWTH
-    Aachen University (<a href="http://ds.informatik.rwth-aachen.de/members/sasnauskas" target="_blank">Raimondas
-    Sasnauskas</a>,
+    Aachen University (Raimondas
+    Sasnauskas,
     <a href="http://www.comsys.rwth-aachen.de/team/klaus/" target="_blank">Klaus Wehrle</a>).
     Within KleeNet project, we are symbolically executing unmodified
     sensornet applications to generate distributed execution paths at
