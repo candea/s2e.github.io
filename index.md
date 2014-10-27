@@ -25,7 +25,7 @@ software routers, testing embedded systems, and more.
 <table style="border-collapse:separate; border-spacing: 0.7em 0.7em;border:0px;;">
     <tr>
       <td rowspan="2"><img src="/images/vm.png" height="64"/></td>
-      <td width="30%">
+      <td width="50%">
         <span style="font-size:large;font-weight:bold;">
           <a href="https://s3.amazonaws.com/s2e-demo-vm/s2e-demo-vmware.tar.bz2" class="external">
           S2E in a Box
@@ -33,13 +33,14 @@ software routers, testing embedded systems, and more.
         </span>
       </td>
       <td rowspan="2"><img src="/images/dl.png" height="64"/></td>
-      <td width="30%">
+      <td width="50%">
         <span style="font-size:large;font-weight:bold;">
           <a href="https://github.com/dslab-epfl/s2e/archive/stable-1.3.zip" class="external">
             Source Code
           </a>
         </span>
       </td>
+      <!--
       <td rowspan="2"><img src="/images/ddt.png" height="64"/></td>
       <td width="30%">
         <span style="font-size:large;font-weight:bold;">
@@ -48,6 +49,7 @@ software routers, testing embedded systems, and more.
           </a>
         </span>
       </td>
+      -->
     </tr>
 
     <tr>
@@ -60,9 +62,11 @@ software routers, testing embedded systems, and more.
       <td style="vertical-align: top;">
         Including build instructions, documentation, tutorials, and more.
       </td>
+      <!--
       <td style="vertical-align: top;">
         Test Windows device drivers with CodeTickler.
       </td>
+      -->
     </tr>
 </table>
 
