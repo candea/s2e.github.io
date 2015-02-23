@@ -5,6 +5,10 @@ title: Releases
 
 ## Latest Releases
 
+### Master branch
+
+  * ARM support
+
 ### 05 Dec. 2013 - S2E V1.3
 
   * x86-64 guests support, LLVM 3.2
