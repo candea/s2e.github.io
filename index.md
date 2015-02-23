@@ -3,6 +3,8 @@ layout: default
 title: Overview
 ---
 
+
+
 S2E is a platform for writing tools that analyze the properties and
 behavior of software systems. S2E is a virtual machine augmented
 with symbolic execution and modular path analyzers. S2E runs
@@ -10,7 +12,7 @@ unmodified x86, x86-64, or ARM software stacks, including programs,
 libraries, the kernel, and drivers. Symbolic execution then
 automatically explores hundreds of thousands of paths through the
 system, while analyzers check that the desired properties hold on
-these paths.
+these paths and selectors focus path exploration on components of interest.
 
 We have used S2E to develop a
 comprehensive performance profiler, a reverse engineering tool for
@@ -20,9 +22,21 @@ file system checkers, symbolic execution engines for interpreted languages,
 tools for finding trojan messages in distributed systems, verifying
 software routers, testing embedded systems, and more.
 
+<table>
+<tr>
+<td><img src="/images/s2e-vm.png" height="300px"/></td>
+<td><img src="/images/s2e-sel.png" height="300px"/></td>
+</tr>
+</table>
+
+
+
+
 <hr/>
 
+
 <table style="border-collapse:separate; border-spacing: 0.7em 0.7em;border:0px;;">
+
     <tr>
       <td rowspan="2"><img src="/images/vm.png" height="64"/></td>
       <td width="50%">
@@ -84,6 +98,7 @@ These techniques give S2E three key abilities:
   *  to simultaneously analyze entire families of execution paths, instead of just one execution at a time;
   *  to perform the analyses in-vivo within a real software stack—user programs, libraries, kernel, drivers, etc.—instead of using abstract models of these layers; and
   *  to operate directly on binaries, thus being able to analyze even proprietary software.
+
 
 Conceptually, S2E is an automated path explorer with modular path
 analyzers: the explorer drives the target system down all execution
