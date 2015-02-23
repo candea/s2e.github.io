@@ -5,19 +5,19 @@ title: Overview
 
 
 
-S2E is a platform for writing tools that analyze the properties and
-behavior of software systems. S2E is a virtual machine augmented
-with symbolic execution and modular path analyzers. S2E runs
+S²E is a platform for writing tools that analyze the properties and
+behavior of software systems. S²E is a virtual machine augmented
+with symbolic execution and modular path analyzers. S²E runs
 unmodified x86, x86-64, or ARM software stacks, including programs,
 libraries, the kernel, and drivers. Symbolic execution then
 automatically explores hundreds of thousands of paths through the
 system, while analyzers check that the desired properties hold on
 these paths and selectors focus path exploration on components of interest.
 
-We have used S2E to develop a
+We have used S²E to develop a
 comprehensive performance profiler, a reverse engineering tool for
 proprietary software, and a bug finding tool for both kernel-mode
-and user-mode binaries. Others have used S2E to build scalable
+and user-mode binaries. Others have used S²E to build scalable
 file system checkers, symbolic execution engines for interpreted languages,
 tools for finding trojan messages in distributed systems, verifying
 software routers, testing embedded systems, and more.
@@ -42,7 +42,7 @@ software routers, testing embedded systems, and more.
       <td width="50%">
         <span style="font-size:large;font-weight:bold;">
           <a href="https://s3.amazonaws.com/s2e-demo-vm/s2e-demo-vmware.tar.bz2" class="external">
-          S2E in a Box
+          S²E in a Box
           </a>
         </span>
       </td>
@@ -59,7 +59,7 @@ software routers, testing embedded systems, and more.
       <td width="30%">
         <span style="font-size:large;font-weight:bold;">
           <a href="http://codetickler.org" class="external" target="_blank">
-            S2E in the Cloud
+            S²E in the Cloud
           </a>
         </span>
       </td>
@@ -87,27 +87,27 @@ software routers, testing embedded systems, and more.
 
 <hr/>
 
-S2E’s novelty consists of its ability to scale to large real
-systems, such as a full Windows stack. S2E is based on two new ideas:
+S²E’s novelty consists of its ability to scale to large real
+systems, such as a full Windows stack. S²E is based on two new ideas:
 
   *  Selective symbolic execution, a way to automatically minimize the amount of code that has to be executed symbolically given a target analysis; and
   *  Relaxed execution consistency models, a way to make principled performance/accuracy trade-offs in complex analyses.
 
-These techniques give S2E three key abilities:
+These techniques give S²E three key abilities:
 
   *  to simultaneously analyze entire families of execution paths, instead of just one execution at a time;
   *  to perform the analyses in-vivo within a real software stack—user programs, libraries, kernel, drivers, etc.—instead of using abstract models of these layers; and
   *  to operate directly on binaries, thus being able to analyze even proprietary software.
 
 
-Conceptually, S2E is an automated path explorer with modular path
+Conceptually, S²E is an automated path explorer with modular path
 analyzers: the explorer drives the target system down all execution
 paths of interest, while analyzers check properties of each such
 path (e.g., to look for bugs) or simply collect information (e.g.,
 count page faults). Desired paths can be specified in multiple ways,
-and S2E users can either combine existing analyzers to build a
-custom analysis tool, or write new analyzers using the S2E API.
+and S²E users can either combine existing analyzers to build a
+custom analysis tool, or write new analyzers using the S²E API.
 
-S2E helps make analyses based on symbolic execution practical for
+S²E helps make analyses based on symbolic execution practical for
 large software that runs in real environments, without requiring
 explicit modeling of these environments.
