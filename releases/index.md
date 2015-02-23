@@ -5,7 +5,7 @@ title: Releases
 
 ## Latest Releases
 
-### Master branch
+### Master Branch
 
   * ARM support
 
