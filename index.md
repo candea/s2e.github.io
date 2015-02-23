@@ -24,8 +24,8 @@ software routers, testing embedded systems, and more.
 
 <table>
 <tr>
-<td><img src="/images/s2e-vm.png" height="300px"/></td>
 <td><img src="/images/s2e-sel.png" height="300px"/></td>
+<td><img src="/images/s2e-vm.png" height="300px"/></td>
 </tr>
 </table>
 
