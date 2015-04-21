@@ -111,3 +111,8 @@ custom analysis tool, or write new analyzers using the S²E API.
 S²E helps make analyses based on symbolic execution practical for
 large software that runs in real environments, without requiring
 explicit modeling of these environments.
+
+
+<hr/>
+
+<b>We are hiring! Open positions are [available](positions).</b>
