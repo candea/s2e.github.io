@@ -22,14 +22,17 @@ file system checkers, symbolic execution engines for interpreted languages,
 tools for finding trojan messages in distributed systems, verifying
 software routers, testing embedded systems, and more.
 
+<!--
 <table>
 <tr>
 <td><img src="/images/s2e-sel.png" height="300px"/></td>
 <td><img src="/images/s2e-vm.png" height="300px"/></td>
 </tr>
 </table>
+-->
 
-
+<img src="/images/s2e-sel.png" height="300px"/>
+<img src="/images/s2e-vm.png" height="300px"/>
 
 
 <hr/>
@@ -87,7 +90,7 @@ software routers, testing embedded systems, and more.
 
 <hr/>
 
-S²E’s novelty consists of its ability to scale to large real
+S²E's novelty consists of its ability to scale to large real
 systems, such as a full Windows stack. S²E is based on two new ideas:
 
   *  Selective symbolic execution, a way to automatically minimize the amount of code that has to be executed symbolically given a target analysis; and
