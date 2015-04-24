@@ -24,6 +24,14 @@ title: People
     </tr>
     <tr><td></td></tr>
     <tr>
+            <td style="border:0px;"><img src="stefan.jpeg" style="height:120px;" alt="" /></td>
+            <td style="border:0px;"><br /><a href="http://people.epfl.ch/stefan.bucur" target="_blank" class="external">Stefan Bucur</a></td>
+            <td style="border:0px;width:25px;"></td>
+            <td style="border:0px;"><img src="radu.jpeg" style="height:120px;" alt="" /></td>
+            <td style="border:0px;"><br /><a href="http://people.epfl.ch/radu.banabic" target="_blank" class="external">Radu Banabic</a></td>
+    </tr>
+    <tr><td></td></tr>
+    <tr>
             <td style="border:0px;"><img src="ana.jpeg" style="height:120px;" alt="" /></td>
             <td style="border:0px;"><br /><a href="http://people.epfl.ch/ana.sima" target="_blank" class="external">Ana Claudia Sima</a></td>
             <td style="border:0px;width:25px;"></td>
