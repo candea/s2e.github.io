@@ -17,7 +17,7 @@ of cutting edge technologies, virtualization, OSes, compilers, and cloud
 computing into a new way to ensure the safety and security of networks
 and endpoints.
 
-You’d be joining a close collaboration between a small research [team](http://dslab.epfl.ch/) at
+You’d be joining a close collaboration between a small research [team](/people) at
 [EPFL](http://www.epfl.ch) and an advanced software security startup located at the [EPFL
 Innovation Park](http://epfl-innovationpark.ch/), on the shore of [Lake Geneva](http://www.prestige-voyages.com/sites/default/files/vm-j3-sur-les-rives-du-lac-leman.jpg). The project is sponsored
 by the [Swiss Commission for Technology and Innovation](https://www.kti.admin.ch/kti/en/home.html).
