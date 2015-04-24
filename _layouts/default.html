@@ -41,9 +41,9 @@
         <div class="col-sm-3 col-md-2 site-sidebar" role="navigation">
           <nav>
             <ul class="list-unstyled site-nav">
-	         <li class="page-current"><a href="/">Overview</a></li>
-	         <li><a href="https://github.com/dslab-epfl/s2e" target="_blank">Source repository</a><li>
-		 <li><a href="https://github.com/dslab-epfl/s2e/blob/master/docs/index.rst" target="_blank">Documentation</a></li>
+             <li class="page-current"><a href="/">Overview</a></li>
+             <li><a href="https://github.com/dslab-epfl/s2e" target="_blank">Source repository</a><li>
+         <li><a href="https://github.com/dslab-epfl/s2e/blob/master/docs/index.rst" target="_blank">Documentation</a></li>
             {% for item_url in site.data.nav %}
               {% assign item_url_index = item_url | append: 'index.html' %}
               {% for p in site.pages %}
@@ -54,12 +54,13 @@
                     {% elsif item_url != '/' and page.url contains item_url %}
                        class="page-current"
                     {% endif %}
-                    ><a href="{{ p.url|remove:'index.html' }}">{{ p.title }}</a></li>
+                    >{% if p.title == 'People' %}<hr/>{% endif %}<a href="{{ p.url|remove:'index.html' }}">{{ p.title }}</a></li>
                 {% endif %}
               {% endfor %}
             {% endfor %}
             </ul>
-	  <a href="http://dslab.epfl.ch" target="_blank"><img vspace="3" src="/images/dslab-logo.png" style="height:50px"/></a> DSLAB
+            <hr/>
+      <a href="http://dslab.epfl.ch" target="_blank"><img vspace="3" src="/images/dslab-logo.png" style="height:50px"/></a> DSLAB
             <a href="http://epfl.ch" target="_blank"><img vspace="10" src="/images/epfl-logo.png" style="width:120px;"/></a>
           </nav>
 
