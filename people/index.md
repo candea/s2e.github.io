@@ -9,7 +9,7 @@ title: People
 <table class="custom_table" style="border:0px;" cellspacing="5">
     <tr>
             <td style="border:0px;"><img src="vitaly.jpg" style="height:120px;" alt="" /></td>
-            <td style="border:0px;"><br /><a href="http://people.epfl.ch/vitaly.chipounov" target="_blank" class="external">Vitaly Chipounov</a></td>
+            <td style="border:0px;"><br /><a href="https://www.linkedin.com/in/vitaly-chipounov-132b2459" target="_blank" class="external">Vitaly Chipounov</a></td>
             <td style="border:0px;width:25px;"></td>
             <td style="border:0px;"><img src="george.png" style="height:120px;" alt="" /></td>
             <td style="border:0px;"><br /><a href="http://people.epfl.ch/george.candea" target="_blank" class="external">Prof. George Candea</a></td>
@@ -24,8 +24,8 @@ title: People
     </tr>
     <tr><td></td></tr>
     <tr>
-            <td style="border:0px;"><img src="stefan.jpeg" style="height:120px;" alt="" /></td>
-            <td style="border:0px;"><br /><a href="http://people.epfl.ch/stefan.bucur" target="_blank" class="external">Stefan Bucur</a></td>
+            <td style="border:0px;"><img src="olivier.jpeg" style="height:120px;" alt="" /></td>
+            <td style="border:0px;"><br /><a href="https://www.linkedin.com/in/oliviersaudan" target="_blank" class="external">Olivier Saudan</a></td>
             <td style="border:0px;width:25px;"></td>
             <td style="border:0px;"><img src="radu.jpeg" style="height:120px;" alt="" /></td>
             <td style="border:0px;"><br /><a href="http://people.epfl.ch/radu.banabic" target="_blank" class="external">Radu Banabic</a></td>
@@ -43,16 +43,26 @@ title: People
             <td style="border:0px;"><img src="alex.jpeg" style="height:120px;" alt="" /></td>
             <td style="border:0px;"><br /><a href="http://people.epfl.ch/alex.copot" target="_blank" class="external">Alexandru-Mihai Copot</a></td>
             <td style="border:0px;width:25px;"></td>
-            <td style="border:0px;"><img src="daniel.jpeg" style="height:120px;" alt="" /></td>
-            <td style="border:0px;"><br /><a href="http://people.epfl.ch/daniel.mahu" target="_blank" class="external">Daniel Mahu</a></td>
+
     </tr>
 </table>
 
 ## Former Students
 
 <p>
+<a>Daniel Mahu</a><br/>
+Cloud infrastructure, static analysis
+</p>
+
+<p>
+<a href="http://www.stefanbucur.net/">Stefan Bucur</a><br/>
+Core symbolic execution engine, constraint solving, parallel symbolic execution,
+state merging, symbolic execution of interpreted languages
+</p>
+
+<p>
 <a>Andy Roulin</a><br/>
-Guest analysis tools
+Guest analysis tools, hardware virtualization
 </p>
 
 <p>
