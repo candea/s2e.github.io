@@ -13,7 +13,16 @@ just drop us a line!
 -   **<a href="https://www.usenix.org/conference/woot15/workshop-program/presentation/bazhaniuk" target="_blank">Symbolic Execution for BIOS Security</a>** at
     Intel Corporation (Oleksandr Bazhaniuk, John Loucaides, Lee Rosenbaum, Mark R. Tuttle, and Vincent Zimmer).
 
-    We are building a tool that uses symbolic execution to search for BIOS security vulnerabilities including dangerous memory references (call outs) by SMM interrupt handlers in UEFI-compliant implementations of BIOS. Our tool currently applies only to interrupt handlers for SMM variables. Given a snapshot of SMRAM, the base address of SMRAM, and the address of the variable interrupt handler in SMRAM, the tool uses S2E to run the KLEE symbolic execution engine to search for concrete examples of a call to the interrupt handler that causes the handler to read memory outside of SMRAM. This is a work in progress. We discuss our approach, our current status, our plans for the tool, and the obstacles we face.
+    We are building a tool that uses symbolic execution to search
+    for BIOS security vulnerabilities including dangerous memory
+    references (call outs) by SMM interrupt handlers in
+    UEFI-compliant implementations of BIOS. Given a
+    snapshot of SMRAM, the base address of SMRAM, and the address of
+    the variable interrupt handler in SMRAM, the tool uses S2E to
+    run the KLEE symbolic execution engine to search for concrete
+    examples of a call to the interrupt handler that causes the
+    handler to read memory outside of SMRAM. We discuss our approach,
+    our current status, our plans for the tool, and the obstacles we face.
 
 -   **<a href="http://research.cs.wisc.edu/sonar/projects/symdrive/" target="_blank">Testing Linux Device
     Drivers</a>** at
