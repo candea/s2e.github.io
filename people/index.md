@@ -19,21 +19,21 @@ title: People
             <td style="border:0px;"><img src="cristi.jpg" style="height:120px;" alt="" /></td>
             <td style="border:0px;"><br /><a href="http://people.epfl.ch/cristian.zamfir" target="_blank" class="external">Cristian Zamfir</a></td>
             <td style="border:0px;width:25px;"></td>
-            <td style="border:0px;"><img src="vova.png" style="height:120px;" alt="" /></td>
-            <td style="border:0px;"><br /><a href="http://people.epfl.ch/vova.kuznetsov" target="_blank" class="external">Volodymyr Kuznetsov</a></td>
+            <td style="border:0px;"><img src="binzhang.jpg" style="height:120px;" alt="" /></td>
+            <td style="border:0px;"><br /><a target="_blank" class="external">Bin Zhang</a></td>
     </tr>
     <tr><td></td></tr>
     <tr>
-            <td style="border:0px;"><img src="olivier.jpeg" style="height:120px;" alt="" /></td>
-            <td style="border:0px;"><br /><a href="https://www.linkedin.com/in/oliviersaudan" target="_blank" class="external">Olivier Saudan</a></td>
+            <td style="border:0px;"><img src="paul.png" style="height:120px;" alt="" /></td>
+            <td style="border:0px;"><br /><a class="external">Paul Hordiienko</a></td>
             <td style="border:0px;width:25px;"></td>
-            <td style="border:0px;"><img src="radu.jpeg" style="height:120px;" alt="" /></td>
-            <td style="border:0px;"><br /><a href="http://people.epfl.ch/radu.banabic" target="_blank" class="external">Radu Banabic</a></td>
+            <td style="border:0px;"><img src="aristide.png" style="height:120px;" alt="" /></td>
+            <td style="border:0px;"><br /><a href="https://www.linkedin.com/in/aristidefattori" target="_blank" class="external">Aristide Fattori</a></td>
     </tr>
     <tr><td></td></tr>
     <tr>
-            <td style="border:0px;"><img src="ana.jpeg" style="height:120px;" alt="" /></td>
-            <td style="border:0px;"><br /><a href="http://people.epfl.ch/ana.sima" target="_blank" class="external">Ana Claudia Sima</a></td>
+            <td style="border:0px;"><img src="adrian.jpg" style="height:120px;" alt="" /></td>
+            <td style="border:0px;"><br /><a href="https://www.linkedin.com/in/adrianherrera02/" target="_blank" class="external">Adrian Herrera</a></td>
             <td style="border:0px;width:25px;"></td>
             <td style="border:0px;"><img src="peter.png" style="height:120px;" alt="" /></td>
             <td style="border:0px;"><br /><a href="http://people.epfl.ch/petr.zankov" target="_blank" class="external">Petr Zankov</a></td>
@@ -47,7 +47,22 @@ title: People
     </tr>
 </table>
 
-## Former Students
+## Former Collaborators
+
+<p>
+<a href="https://www.linkedin.com/in/volodymyrkuznetsov">Volodymyr Kuznetsov</a><br/>
+Co-author of the S2E engine
+</p>
+
+<p>
+<a href="https://www.linkedin.com/in/radubanabic">Radu Banabic</a><br/>
+Testing distributed systems
+</p>
+
+<p>
+<a>Ana Sima</a><br/>
+String solver integration
+</p>
 
 <p>
 <a>Daniel Mahu</a><br/>
